@@ -14,6 +14,12 @@ namespace MandelbrotCSharp.Models
         // imaginary part
         public double b;
 
+        public ComplexNumbers(double a, double b)
+        {
+            this.a = a;
+            this.b = b;
+        }
+
         public void Square()
         {
             double temp = (a * a) - (b * b);

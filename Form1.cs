@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MandelbrotCSharp.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +20,32 @@ namespace MandelbrotCSharp
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            Bitmap bm = new Bitmap(pictureBox1.Width, pictureBox1.Height);
 
+            for(int x=0; x< pictureBox1.Width; x++)
+            {
+                for (int y = 0; y < pictureBox1.Height; y++)
+                {
+                    double a = (double)(x - (pictureBox1.Width / 2)) / (double)(pictureBox1.Width / 4);
+                    double b = (double)(y - (pictureBox1.Height / 2)) / (double)(pictureBox1.Height / 4);
+
+                    ComplexNumbers c = new ComplexNumbers(a, b);
+                    ComplexNumbers z = new ComplexNumbers(0, 0);
+
+                    int it = 0;
+
+                    do
+                    {
+                        it++;
+                        z.Square();
+                        z.Add(c);
+                        if (z.Magnitude() > 2.0) break;
+                    }
+                    while (it<100);
+                    bm.SetPixel(x, y, it < 100 ? Color.Black : Color.White);
+                }
+            }
+            pictureBox1.Image = bm;
         }
     }
 }

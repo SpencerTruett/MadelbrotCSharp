@@ -1,0 +1,10 @@
+C:\Users\gilde\workspace\csharp\MandelbrotCSharp\bin\Debug\MandelbrotCSharp.exe.config
+C:\Users\gilde\workspace\csharp\MandelbrotCSharp\bin\Debug\MandelbrotCSharp.exe
+C:\Users\gilde\workspace\csharp\MandelbrotCSharp\bin\Debug\MandelbrotCSharp.pdb
+C:\Users\gilde\workspace\csharp\MandelbrotCSharp\obj\Debug\MandelbrotCSharp.csprojAssemblyReference.cache
+C:\Users\gilde\workspace\csharp\MandelbrotCSharp\obj\Debug\MandelbrotCSharp.Form1.resources
+C:\Users\gilde\workspace\csharp\MandelbrotCSharp\obj\Debug\MandelbrotCSharp.Properties.Resources.resources
+C:\Users\gilde\workspace\csharp\MandelbrotCSharp\obj\Debug\MandelbrotCSharp.csproj.GenerateResource.cache
+C:\Users\gilde\workspace\csharp\MandelbrotCSharp\obj\Debug\MandelbrotCSharp.csproj.CoreCompileInputs.cache
+C:\Users\gilde\workspace\csharp\MandelbrotCSharp\obj\Debug\MandelbrotCSharp.exe
+C:\Users\gilde\workspace\csharp\MandelbrotCSharp\obj\Debug\MandelbrotCSharp.pdb
