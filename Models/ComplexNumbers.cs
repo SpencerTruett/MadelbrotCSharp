@@ -14,6 +14,7 @@ namespace MandelbrotCSharp.Models
         // imaginary part
         public double b;
 
+        // Constructor
         public ComplexNumbers(double a, double b)
         {
             this.a = a;
